@@ -1,0 +1,13 @@
+clip000.h5 149
+clip001.h5 149
+clip002.h5 149
+clip003.h5 149
+clip004.h5 149
+clip005.h5 149
+clip006.h5 149
+clip007.h5 149
+clip008.h5 149
+clip009.h5 149
+clip010.h5 149
+clip011.h5 149
+clip012.h5 149

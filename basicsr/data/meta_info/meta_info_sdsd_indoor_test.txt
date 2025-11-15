@@ -1,0 +1,12 @@
+pair13.h5 121
+pair15.h5 124
+pair21.h5 121
+pair23.h5 112
+pair31.h5 124
+pair33.h5 134
+pair50.h5 122
+pair52.h5 126
+pair58.h5 123
+pair60.h5 113
+pair68.h5 126
+pair70.h5 135
