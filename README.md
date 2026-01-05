@@ -1,20 +1,24 @@
-# [RetinexEVSR (AAAI 2026)](https://arxiv.org/pdf/2504.13042)
+<div align="center">
 
-Official PyTorch implementation for the "Seeing the Unseen: Zooming in the Dark with Event Cameras" paper (AAAI 2026).
+# RetinexEVSR (AAAI 2026)
 
-<p align="center">
-    🌐 <a href="https://dachunkai.github.io/retinexevsr.github.io/" target="_blank">Project</a> | 📃 <a href="https://arxiv.org/pdf/2504.13042" target="_blank">Paper</a>  <br>
-</p>
+**Seeing the Unseen: Zooming in the Dark with Event Cameras**
 
-**Authors**: [Dachun Kai](https://github.com/DachunKai/)<sup>[:email:️](mailto:dachunkai@mail.ustc.edu.cn)</sup>, [Zeyu Xiao](https://dblp.org/pid/276/3139.html), Huyue Zhu, Jiaxiao Wang, [Yueyi Zhang](https://scholar.google.com.hk/citations?user=LatWlFAAAAAJ&hl=zh-CN&oi=ao), [Xiaoyan Sun](https://scholar.google.com/citations?user=VRG3dw4AAAAJ&hl=zh-CN), *University of Science and Technology of China*
+[Dachun Kai](https://github.com/DachunKai/)<sup>[:email:️](mailto:dachunkai@mail.ustc.edu.cn)</sup>, [Zeyu Xiao](https://dblp.org/pid/276/3139.html), Huyue Zhu, Jiaxiao Wang, [Yueyi Zhang](https://scholar.google.com.hk/citations?user=LatWlFAAAAAJ&hl=zh-CN&oi=ao), [Xiaoyan Sun](https://scholar.google.com/citations?user=VRG3dw4AAAAJ&hl=zh-CN)
+
+*University of Science and Technology of China*
+
+🌐 <a href="https://dachunkai.github.io/retinexevsr.github.io/" target="_blank">Project</a> | 📃 <a href="https://arxiv.org/pdf/2504.13042" target="_blank">Paper</a>
+
+</div>
 
 **Feel free to ask questions. If our work helps, please don't hesitate to give us a :star:!**
 
 ## :rocket: News
-- [x] 2026/01/05: Make repository public
+- [x] 2026/01/05: Repository made public
 - [x] 2025/11/17: Release pretrained models and test sets for quick testing
 - [x] 2025/11/17: Video demos released
-- [x] 2025/11/15: Initialize the repository
+- [x] 2025/11/15: Repository initialized
 - [x] 2025/11/08: :tada: :tada: Our paper was accepted in AAAI'2026
 
 ## :bookmark: Table of Contents
@@ -25,7 +29,7 @@ Official PyTorch implementation for the "Seeing the Unseen: Zooming in the Dark 
 5. [License and Acknowledgement](#license-and-acknowledgement)
 
 ## :fire: Video Demos
-A $4\times$ low-light video upsampling results on the real-world dataset [SDE](https://github.com/EthanLiang99/EvLight) and [RELED](https://github.com/intelpro/ELEDNet) test sets.
+Visual results of $4\times$ upsampling on the real-world [SDE](https://github.com/EthanLiang99/EvLight) and [RELED](https://github.com/intelpro/ELEDNet) datasets, transforming low-light LR videos into well-lit HR videos.
 
 https://github.com/user-attachments/assets/92108fe3-b72d-4551-b908-21ede093508b
 
@@ -64,7 +68,7 @@ https://github.com/user-attachments/assets/f11eae03-3641-42ce-b959-097e5c4a7c72
   source activate RetinexEVSR && cd RetinexEVSR && python setup.py develop
   ```
 ### Test
-1. Download the pretrained models from ([Releases](https://github.com/DachunKai/RetinexEVSR/releases) / [Google Drive](https://drive.google.com/drive/folders/1kHF_w1RHZLUOvo7GKptnLOXxAi7MDuqA?usp=sharing) / [Baidu Cloud](https://pan.baidu.com/s/1qGWe_O_fXTVfdFJKLXkZcw?pwd=n8hg) (n8hg)) and place them to `experiments/pretrained_models/RetinexEVSR/`. The network architecture code is in [retinexevsr_arch.py](https://github.com/DachunKai/RetinexEVSR/blob/main/basicsr/archs/retinexevsr_arch.py).
+1. Download the pretrained models from ([Releases](https://github.com/DachunKai/RetinexEVSR/releases) / [Google Drive](https://drive.google.com/drive/folders/1kHF_w1RHZLUOvo7GKptnLOXxAi7MDuqA?usp=sharing) / [Baidu Cloud](https://pan.baidu.com/s/1qGWe_O_fXTVfdFJKLXkZcw?pwd=n8hg) (n8hg)) and place them in `experiments/pretrained_models/RetinexEVSR/`. The network architecture code is in [retinexevsr_arch.py](https://github.com/DachunKai/RetinexEVSR/blob/main/basicsr/archs/retinexevsr_arch.py).
     - Synthetic dataset models:
       * *RetinexEVSR_SDSD_Indoor_BIx4.pth*: trained on [SDSD Indoor](https://github.com/JIA-Lab-research/SDSD) dataset.
       * *RetinexEVSR_SDSD_Outdoor_BIx4.pth*: trained on [SDSD Outdoor](https://github.com/JIA-Lab-research/SDSD) dataset.
@@ -73,13 +77,13 @@ https://github.com/user-attachments/assets/f11eae03-3641-42ce-b959-097e5c4a7c72
       * *RetinexEVSR_SDE_Outdoor_BIx4.pth*: trained on [SDE Outdoor](https://github.com/EthanLiang99/EvLight) dataset.
       * *RetinexEVSR_RELED_BIx4.pth*: trained on [RELED](https://github.com/intelpro/ELEDNet) dataset.
 
-2. Download the preprocessed test sets (including events) for [SDSD](https://github.com/JIA-Lab-research/SDSD), [SDE](https://github.com/EthanLiang99/EvLight), and [RELED](https://github.com/intelpro/ELEDNet) from ([Google Drive](https://drive.google.com/drive/folders/1kHF_w1RHZLUOvo7GKptnLOXxAi7MDuqA?usp=sharing) / [Baidu Cloud](https://pan.baidu.com/s/1qGWe_O_fXTVfdFJKLXkZcw?pwd=n8hg) (n8hg)), and place them to `datasets/`.
+2. Download the preprocessed test sets (including events) for [SDSD](https://github.com/JIA-Lab-research/SDSD), [SDE](https://github.com/EthanLiang99/EvLight), and [RELED](https://github.com/intelpro/ELEDNet) from ([Google Drive](https://drive.google.com/drive/folders/1kHF_w1RHZLUOvo7GKptnLOXxAi7MDuqA?usp=sharing) / [Baidu Cloud](https://pan.baidu.com/s/1qGWe_O_fXTVfdFJKLXkZcw?pwd=n8hg) (n8hg)), and place them in `datasets/`.
     * *SDSD*: HDF5 files containing preprocessed test datasets for SDSD_Indoor and SDSD_Outdoor.
     * *SDE*: HDF5 files containing preprocessed test datasets for SDE_Indoor and SDE_Outdoor.
     * *RELED*: HDF5 files containing preprocessed test datasets for RELED.
 
 3. Run the following command:
-    We use 8*4090 to test, which is explicitly quicker than two gpus.
+    > **Note**: We utilized 8 NVIDIA RTX 4090 GPUs for testing to accelerate inference.
     * Test on SDSD Indoor for 4x Low-Light VSR:
       ```bash
       ./scripts/dist_test.sh [num_gpus] options/test/RetinexEVSR/test_RetinexEVSR_SDSD_IN_x4.yml
