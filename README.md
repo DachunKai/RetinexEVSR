@@ -25,11 +25,13 @@ Official PyTorch implementation for the "Seeing the Unseen: Zooming in the Dark 
 5. [License and Acknowledgement](#license-and-acknowledgement)
 
 ## :fire: Video Demos
-A $4\times$ low-light video upsampling results on the real-world dataset [RELED](https://github.com/intelpro/ELEDNet) test set.
+A $4\times$ low-light video upsampling results on the real-world dataset [SDE](https://github.com/EthanLiang99/EvLight) and [RELED](https://github.com/intelpro/ELEDNet) test sets.
 
-https://github.com/user-attachments/assets/359179ad-3e40-4321-8601-23da602631ae
+https://github.com/user-attachments/assets/92108fe3-b72d-4551-b908-21ede093508b
 
-https://github.com/user-attachments/assets/c9841d86-97e8-418c-84ef-3061585430cc
+https://github.com/user-attachments/assets/48872d3a-36e2-4b20-a273-fd6e030e8afd
+
+https://github.com/user-attachments/assets/f11eae03-3641-42ce-b959-097e5c4a7c72
 
 ## Code
 ### Installation
