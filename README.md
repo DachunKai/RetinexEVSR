@@ -5,7 +5,7 @@ Official PyTorch implementation for the "Seeing the Unseen: Zooming in the Dark 
 
 **Authors**: [Dachun Kai](https://github.com/DachunKai/)<sup>[:email:️](mailto:dachunkai@mail.ustc.edu.cn)</sup>, [Zeyu Xiao](https://dblp.org/pid/276/3139.html), Huyue Zhu, Jiaxiao Wang, [Yueyi Zhang](https://scholar.google.com.hk/citations?user=LatWlFAAAAAJ&hl=zh-CN&oi=ao), [Xiaoyan Sun](https://scholar.google.com/citations?user=VRG3dw4AAAAJ&hl=zh-CN), 
 
-**Affiliations**: *University of Science and Technology of China*
+**Affiliations**: *University of Science and Technology of China*, *National University of Singapore*, *Miromind AI*
 
 **Feel free to ask questions. If our work helps, please don't hesitate to give us a :star:!**
 
