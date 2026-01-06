@@ -16,20 +16,19 @@ Official PyTorch implementation for the "Seeing the Unseen: Zooming in the Dark 
 - [x] 2025/11/08: :tada: :tada: Our paper was accepted in AAAI'2026
 
 ## :bookmark: Table of Contents
-1. [Video Demos](#video-demos)
-2. [Code](#code)
-3. [Citation](#citation)
-4. [Contact](#contact)
-5. [License and Acknowledgement](#license-and-acknowledgement)
-
-## :fire: Video Demos
+<!-- 1. [Video Demos](#video-demos) -->
+1. [Code](#code)
+2. [Citation](#citation)
+3. [Contact](#contact)
+4. [License and Acknowledgement](#license-and-acknowledgement)
+<!-- ## :fire: Video Demos
 Visual results of $4\times$ upsampling on the real-world [SDE](https://github.com/EthanLiang99/EvLight) and [RELED](https://github.com/intelpro/ELEDNet) datasets, transforming low-light LR videos into well-lit HR videos.
 
 https://github.com/user-attachments/assets/92108fe3-b72d-4551-b908-21ede093508b
 
 https://github.com/user-attachments/assets/48872d3a-36e2-4b20-a273-fd6e030e8afd
 
-https://github.com/user-attachments/assets/f11eae03-3641-42ce-b959-097e5c4a7c72
+https://github.com/user-attachments/assets/f11eae03-3641-42ce-b959-097e5c4a7c72 -->
 
 ## Code
 ### Installation
