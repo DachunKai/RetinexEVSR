@@ -1,5 +1,4 @@
-<!-- # [RetinexEVSR (AAAI 2026)](https://arxiv.org/pdf/2504.13042) -->
-# RetinexEVSR (AAAI 2026)
+# [RetinexEVSR (AAAI 2026)](https://arxiv.org/abs/2601.02206)
 
 Official PyTorch implementation for the "Seeing the Unseen: Zooming in the Dark with Event Cameras" paper (AAAI 2026).
 
