@@ -128,6 +128,9 @@ If you find our work useful for your research, please consider citing:
   title={Seeing the Unseen: Zooming in the Dark with Event Cameras},
   author={Kai, Dachun and Xiao, Zeyu and Zhu, Huyue and Wang, Jiaxiao and Zhang, Yueyi and Sun, Xiaoyan},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={7},
+  pages={5593--5601},
   year={2026}
 }
 ```
